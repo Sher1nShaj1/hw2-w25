@@ -40,16 +40,19 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px; 
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-right-width: 0px;
+    border-top-width: 0px;
 }
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-    
+    border-right-width: 5px;
+    border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
 }
 .blue h2{
     color: #C4C4C4;
@@ -61,8 +64,10 @@ div {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-right: 0px;
+    border-top-width: 0px;
 }
 .yellow p{
     color: #707070
@@ -71,8 +76,10 @@ div {
     background-color: #008500; 
     text-align: left; 
     margin-right: 50px;
-    border-right: 5px ;
-    border-top: 2px;
+    border-right-width: 5px ;
+    border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
   }
   footer {
     background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
